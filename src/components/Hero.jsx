@@ -23,7 +23,6 @@ const Hero = () => {
             text-white-100`}>
             I develop cool stuff with chatgpt <br
               className="sm:block hidden" />
-            and I support liverpool
           </p>
 
         </div>

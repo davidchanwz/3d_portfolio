@@ -20,15 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
+import python from "./tech/python.png";
+import supabase from "./tech/supabase.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import pilgrim from "./company/pilgrim.png";
+import citic from "./company/citic.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import optifooty from "./optifooty.png";
+import antony from "./antony.png";
+import bananasplit from "./bananasplit.png";
+import person from "./person.jpg";
 
 export {
   logo,
@@ -55,8 +64,17 @@ export {
   meta,
   shopify,
   starbucks,
+  sql,
   tesla,
   carrent,
   jobit,
   tripguide,
+  python,
+  pilgrim,
+  citic,
+  supabase,
+  optifooty,
+  antony,
+  bananasplit,
+  person,
 };
