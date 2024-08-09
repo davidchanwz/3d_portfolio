@@ -14,6 +14,7 @@ import {
   antony,
   supabase,
   citic,
+  david,
   python,
   reactjs,
   redux,
