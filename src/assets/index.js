@@ -31,7 +31,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pilgrim from "./company/pilgrim.png";
-import citic from "./company/citic.png"
+import citic from "./company/citic.png";
+import nus from "./company/nus.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -74,6 +76,7 @@ export {
   python,
   pilgrim,
   citic,
+  nus,
   supabase,
   optifooty,
   antony,

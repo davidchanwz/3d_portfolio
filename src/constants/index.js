@@ -33,6 +33,7 @@ import {
   tripguide,
   threejs,
   person,
+  nus,
 } from "../assets";
 
 export const navLinks = [
@@ -137,6 +138,17 @@ const experiences = [
     points: [
       "Lead design and development of a comprehensive risk analysis tools with VBA, strengthening risk management strategies and speeding up processes by 150% for risk department.",
       "Overhauled department's data management system with Power Query and Power Pivot, transitioning to a more robust and scalable system, optimising usability by 100% for risk department.",
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company_name: "National University of Singapore",
+    icon: nus,
+    iconBg: "#ffff",
+    date: "Aug 2024 - Present",
+    points: [
+      "Teaching support for BT2102 - Data Management and Visualisation.",
+      "Provide students with practical knowledge and understanding of basic issues and techniques in data management and warehousing with relational database management systems, as well as data visualisation principles, techniques and tools.",
     ],
   },
 ];
