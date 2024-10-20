@@ -9,6 +9,7 @@ import {
   typescript,
   html,
   bananasplit,
+  crewmate,
   css,
   pilgrim,
   antony,
@@ -34,6 +35,7 @@ import {
   threejs,
   person,
   nus,
+  coconutsplit
 } from "../assets";
 
 export const navLinks = [
@@ -199,30 +201,30 @@ const projects = [
     source_code_link: "https://optifooty.vercel.app/",
   },
   {
-    name: "Antony",
+    name: "CrewMate",
     description:
-      "Machine learning model for predicting companies' future sales revenue with ~85% accuracy.",
+      "Employee web app with AI-Powered Chatbot, AI-driven employee task generation and match-making, AI-generated upskilling course recommendations.",
     tags: [
       {
-        name: "pandas",
+        name: "openai",
         color: "blue-text-gradient",
       },
       {
-        name: "jupyter",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "sklearn",
+        name: "fastapi",
         color: "pink-text-gradient",
       },
     ],
-    image: antony,
-    source_code_link: "https://github.com/davidchanwz/NUS_DATATHON_CHAMPION_ANTONY",
+    image: crewmate,
+    source_code_link: "https://github.com/davidchanwz/harborhackers",
   },
   {
-    name: "BananaSplit",
+    name: "Coconutsplit",
     description:
-      "Telegram bot for tracking shared expenses, splits costs between members with ~100% accuracy.",
+      "Telegram bot for tracking shared expenses and splitting costs between members.",
     tags: [
       {
         name: "python",
@@ -233,8 +235,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: bananasplit,
-    source_code_link: "https://github.com/davidchanwz/BananaSplit-bot",
+    image: coconutsplit,
+    source_code_link: "https://github.com/davidchanwz/coconutsplit",
   },
 ];
 

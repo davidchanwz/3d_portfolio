@@ -41,6 +41,9 @@ import tripguide from "./tripguide.png";
 import optifooty from "./optifooty.png";
 import antony from "./antony.png";
 import bananasplit from "./bananasplit.png";
+import coconutsplit from "./coconutsplit.png";
+import crewmate from "./crewmate.png";
+
 import person from "./person.jpg";
 
 export {
@@ -59,6 +62,7 @@ export {
   html,
   javascript,
   mongodb,
+  crewmate,
   nodejs,
   reactjs,
   redux,
@@ -71,6 +75,7 @@ export {
   sql,
   tesla,
   carrent,
+  coconutsplit,
   jobit,
   tripguide,
   python,
