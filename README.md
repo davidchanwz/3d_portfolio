@@ -7,4 +7,7 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 - **Resume**: Download a copy of my resume directly from the site.
 - **Contact**: Connect with me through various social platforms.
 
+## 🙏 Credits
+This website was built following a tutorial by JavaScript Mastery: [YouTube Tutorial](https://youtu.be/0fYi8SGA20k?feature=shared)
+
 Visit the website to learn more: [Portfolio Website](https://www.davidchanwz.com/)
