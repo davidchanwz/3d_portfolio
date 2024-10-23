@@ -51,6 +51,14 @@ const About = () => {
         I am currently pursuing a Business Analytics, Bachelor of Science at National University of Singapore.
       </motion.p>
 
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-6">
+        <a href="https://drive.google.com/uc?export=download&id=1atNktynX_8Bg5AaJb2V3ynn3E3NdfC3U" download>
+          <button className='bg-purple-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-purple-600 transition-colors flex items-center'>
+            <i className="fas fa-download mr-2"></i> Download Resume
+          </button>
+        </a>
+      </motion.div>
+
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
