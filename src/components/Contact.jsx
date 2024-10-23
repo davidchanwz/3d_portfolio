@@ -127,6 +127,19 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Add social icons with label */}
+        <div className="mt-8">
+          <p className="text-white font-medium mb-4">My socials:</p>
+          <div className="flex gap-4">
+            <a href="https://www.linkedin.com/in/davidchanwz/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin text-white text-3xl hover:text-blue-600"></i>
+            </a>
+            <a href="https://github.com/davidchanwz" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github text-white text-3xl hover:text-gray-600"></i>
+            </a>
+          </div>
+        </div>
       </motion.div>
 
       <motion.div
