@@ -189,11 +189,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "fastapi",
         color: "pink-text-gradient",
       },
       {
-        name: "flask",
+        name: "tailwindcss",
         color: "yellow-text-gradient",
       },
     ],
@@ -206,16 +206,20 @@ const projects = [
       "Rest API with ML-based ethereum transaction fraud detection, automatic audit report generation with ~96% accuracy. Achieved Finalist (Top 5 of 88 Teams) for NUS Fintech Hackathon 2025, Northern Trust track",
     tags: [
       {
-        name: "openai",
+        name: "xgboost",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "fastapi",
         color: "green-text-gradient",
       },
       {
-        name: "fastapi",
+        name: "alembic",
         color: "pink-text-gradient",
+      },
+      {
+        name: "sqlalchemy",
+        color: "yellow-text-gradient",
       },
     ],
     image: crewmate,
@@ -233,6 +237,10 @@ const projects = [
       {
         name: "pytelegrambot",
         color: "green-text-gradient",
+      },
+      {
+        name: "huggingface",
+        color: "yellow-text-gradient",
       },
     ],
     image: coconutsplit,
