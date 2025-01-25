@@ -81,10 +81,24 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        {/* Add social icons with label */}
+        <div>
+          <p className="text-white mb-1 mt-4 font-bold text-lg">My socials:</p>
+          <div className="flex gap-4">
+            <a href="https://www.linkedin.com/in/davidchanwz/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin text-white text-3xl hover:text-blue-600"></i>
+            </a>
+            <a href="https://github.com/davidchanwz" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github text-white text-3xl hover:text-gray-600"></i>
+            </a>
+          </div>
+        </div>
+        <p className="text-white font-bold mt-8 text-lg">Send a message:</p>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-4 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -128,18 +142,7 @@ const Contact = () => {
           </button>
         </form>
 
-        {/* Add social icons with label */}
-        <div className="mt-8">
-          <p className="text-white font-medium mb-4">My socials:</p>
-          <div className="flex gap-4">
-            <a href="https://www.linkedin.com/in/davidchanwz/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin text-white text-3xl hover:text-blue-600"></i>
-            </a>
-            <a href="https://github.com/davidchanwz" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github text-white text-3xl hover:text-gray-600"></i>
-            </a>
-          </div>
-        </div>
+
       </motion.div>
 
       <motion.div
