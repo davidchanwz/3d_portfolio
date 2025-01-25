@@ -176,9 +176,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "OptiFooty",
+    name: "Gyatword",
     description:
-      "Full-stack web application for optimising Fantasy Premier League teams.",
+      "Full-stack web application for custom crossword web game with Brain Rot Gen Alpha language. Won Best Polyglot Hack at NUS Hack & Roll 2025",
     tags: [
       {
         name: "react",
@@ -198,12 +198,12 @@ const projects = [
       },
     ],
     image: optifooty,
-    source_code_link: "https://optifooty.vercel.app/",
+    source_code_link: "https://github.com/GyatGames/gyatword",
   },
   {
-    name: "CrewMate",
+    name: "AI Compliance Engine",
     description:
-      "Employee web app with AI-Powered Chatbot, AI-driven employee task generation and match-making, AI-generated upskilling course recommendations.",
+      "Rest API with ML-based ethereum transaction fraud detection, automatic audit report generation with ~96% accuracy. Achieved Finalist (Top 5 of 88 Teams) for NUS Fintech Hackathon 2025, Northern Trust track",
     tags: [
       {
         name: "openai",
@@ -219,7 +219,7 @@ const projects = [
       },
     ],
     image: crewmate,
-    source_code_link: "https://github.com/davidchanwz/harborhackers",
+    source_code_link: "https://github.com/davidchanwz/ai-compliance-engine",
   },
   {
     name: "Coconutsplit",
