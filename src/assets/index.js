@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import david from "./david.png";
 import preview from "./preview-image.png";
-
+import gyatword from "./gyatword.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -43,12 +43,14 @@ import antony from "./antony.png";
 import bananasplit from "./bananasplit.png";
 import coconutsplit from "./coconutsplit.png";
 import crewmate from "./crewmate.png";
-
+import ace from "./ace.png";
 import person from "./person.jpg";
 
 export {
+  ace,
   logo,
   backend,
+  gyatword,
   creator,
   mobile,
   web,

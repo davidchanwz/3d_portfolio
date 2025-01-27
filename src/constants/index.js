@@ -2,6 +2,8 @@ import {
   mobile,
   backend,
   creator,
+  ace,
+  gyatword,
   sql,
   web,
   optifooty,
@@ -132,7 +134,7 @@ const experiences = [
     ],
   },
   {
-    title: "Risk Management Intern",
+    title: "Risk Analyst Intern",
     company_name: "China CITIC Bank International",
     icon: citic,
     iconBg: "#E6DEDD",
@@ -151,6 +153,17 @@ const experiences = [
     points: [
       "Teaching support for BT2102 - Data Management and Visualisation.",
       "Provide students with practical knowledge and understanding of basic issues and techniques in data management and warehousing with relational database management systems, as well as data visualisation principles, techniques and tools.",
+    ],
+  },
+  {
+    title: "Teaching Assistant",
+    company_name: "National University of Singapore",
+    icon: nus,
+    iconBg: "#ffff",
+    date: "Jan 2025 - Present",
+    points: [
+      "Teaching support for CP2106 - Independent Software Development Project (Orbital).",
+      "Peer evaluator, project manager and cheerleader for 12~15 Orbital teams. Evaluate the progress of a few Orbital teams every month and guide teams through their software development project.",
     ],
   },
 ];
@@ -176,7 +189,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Gyatword",
+    name: "Custom Crossword Web Game",
     description:
       "Full-stack web application for custom crossword web game with Brain Rot Gen Alpha language. Won Best Polyglot Hack at NUS Hack & Roll 2025",
     tags: [
@@ -197,7 +210,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: optifooty,
+    image: gyatword,
     source_code_link: "https://github.com/GyatGames/gyatword",
   },
   {
@@ -222,11 +235,11 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: crewmate,
+    image: ace,
     source_code_link: "https://github.com/davidchanwz/ai-compliance-engine",
   },
   {
-    name: "Coconutsplit",
+    name: "Group Expense Manager Telegram Bot",
     description:
       "Telegram bot for tracking shared expenses and splitting costs between members.",
     tags: [
