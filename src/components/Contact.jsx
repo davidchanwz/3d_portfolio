@@ -91,6 +91,12 @@ const Contact = () => {
             <a href="https://github.com/davidchanwz" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github text-white text-3xl hover:text-gray-600"></i>
             </a>
+            <a href="mailto:david.chan@u.nus.edu" target="_blank" rel="noopener noreferrer" className="relative group">
+              <i className="fas fa-envelope text-white text-3xl hover:text-gray-600"></i>
+              <span className="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 text-sm text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                david.chan@u.nus.edu
+              </span>
+            </a>
           </div>
         </div>
         <p className="text-white font-bold mt-8 text-lg">Send a message:</p>
