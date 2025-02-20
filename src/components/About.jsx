@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import resume from "../assets/resume/davidchan_resume.pdf"
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -54,7 +55,7 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-6">
-        <a href={resumeUrl} download="davidchan_resume.pdf">
+        <a href={resume} download="davidchan_resume.pdf">
           <button className='bg-purple-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-purple-600 transition-colors flex items-center'>
             <i className="fas fa-download mr-2"></i> Download Resume
           </button>
