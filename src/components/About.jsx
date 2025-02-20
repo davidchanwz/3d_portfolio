@@ -50,7 +50,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a motivated and results-oriented undergraduate student with a keen interest in Software Development, Machine Learning, and Data Science.
+        I am a motivated and results-oriented undergraduate student with a keen interest in Software Development, Machine Learning, and Data Analyst.
         I am currently pursuing a Business Analytics, Bachelor of Science at National University of Singapore.
       </motion.p>
 

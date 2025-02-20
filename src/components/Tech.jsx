@@ -17,11 +17,18 @@ const Tech = () => {
         <p className={`${styles.sectionSubText}`}>
           My tools
         </p>
-        <h2 className={`${styles.sectionHeadText} pb-5`}>
+        <h2 className={`${styles.sectionHeadText}`}>
           Technology.
         </h2>
       </motion.div>
-
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          I am familiar with an assortment of programming languages, development frameworks and tools.
+        </motion.p>
+      </div>
 
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologies.map((technology) => (
