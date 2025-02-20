@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div className="flex flex-row w-max">
-          <img src={david} alt='david' className='border-[#915eff] border-2 rounded-full w-[70px] h-[70px] ml-[-23px] mr-1 mt-6 sm:w-[140px] sm:h-[140px] object-contain sm:m-3' />
+          <img src={david} alt='david' className='border-[#915eff] border-2 rounded-full w-[70px] h-[70px] ml-[-45px] mr-3 mt-6 sm:w-[140px] sm:h-[140px] object-contain sm:m-3' />
           <div>
             <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span
               className="text-[#915eff]">David</span>
