@@ -41,8 +41,7 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            David&nbsp;
-            <span className='sm:block hidden'>Chan Weizhi</span>
+            David Chan Weizhi
           </p>
         </Link>
 
