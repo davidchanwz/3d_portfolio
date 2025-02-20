@@ -61,7 +61,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Data/ML Engineer",
+    title: "ML Engineer",
     icon: mobile,
   },
   {
@@ -189,7 +189,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Custom Crossword Web Game",
+    name: "Automated Daily Crossword Web Game",
     description:
       "Full-stack web application for custom crossword web game with Brain Rot Gen Alpha language. Won Best Polyglot Hack at NUS Hack & Roll 2025",
     tags: [
@@ -214,7 +214,7 @@ const projects = [
     source_code_link: "https://github.com/GyatGames/gyatword",
   },
   {
-    name: "AI Compliance Engine",
+    name: "Ethereum Transaction Fraud Detector",
     description:
       "Rest API with ML-based ethereum transaction fraud detection, automatic audit report generation with ~96% accuracy. Achieved Finalist (Top 5 of 88 Teams) for NUS Fintech Hackathon 2025, Northern Trust track",
     tags: [

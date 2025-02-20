@@ -40,10 +40,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={david} alt='david' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            David &nbsp;
-            <span className='sm:block hidden'> | NUS Computing</span>
+            David&nbsp;
+            <span className='sm:block hidden'>Chan Weizhi</span>
           </p>
         </Link>
 

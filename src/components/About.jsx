@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   const resumeUrl =
-    "https://drive.google.com/uc?export=download&id=1_JJEef9MMIEF5AAhF0HqiLucskEaTL7J";
+    "src/assets/resume/davidchan_resume.pdf";
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -54,7 +54,7 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={fadeIn("", "", 0.1, 1)} className="mt-6">
-        <a href={resumeUrl} download="Resume - David Chan Weizhi.pdf">
+        <a href={resumeUrl} download="davidchan_resume.pdf">
           <button className='bg-purple-500 text-white py-2 px-4 rounded-md shadow-md hover:bg-purple-600 transition-colors flex items-center'>
             <i className="fas fa-download mr-2"></i> Download Resume
           </button>

@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { david } from '../assets';
 
 const Hero = () => {
   return (
@@ -15,15 +16,18 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span
-            className="text-[#915eff]">David</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop cool stuff for <span className="line-through">fun</span> <span>work</span>
-            <br className="sm:block hidden" />
-          </p>
+        <div className="flex flex-row w-max">
+          <img src={david} alt='david' className='border-[#915eff] border-2 rounded-full w-[70px] h-[70px] ml-[-10px] mr-1 mt-6 sm:w-[140px] sm:h-[140px] object-contain sm:m-3' />
+          <div>
+            <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span
+              className="text-[#915eff]">David</span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+              I develop cool stuff for <span className="line-through">fun</span> <span>work</span>
+              <br className="sm:block hidden" />
+            </p>
 
+          </div>
         </div>
 
       </div>
