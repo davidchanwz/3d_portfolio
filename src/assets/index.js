@@ -33,6 +33,7 @@ import tesla from "./company/tesla.png";
 import pilgrim from "./company/pilgrim.png";
 import citic from "./company/citic.png";
 import nus from "./company/nus.png";
+import synapxe from "./company/synapxe.jpg";
 
 
 import carrent from "./carrent.png";
@@ -41,13 +42,14 @@ import tripguide from "./tripguide.png";
 import optifooty from "./optifooty.png";
 import antony from "./antony.png";
 import bananasplit from "./bananasplit.png";
-import coconutsplit from "./coconutsplit.png";
+import coconutsplit from "./coconutsplit.jpg";
 import crewmate from "./crewmate.png";
 import ace from "./ace.png";
 import person from "./person.jpg";
 
 export {
   ace,
+  synapxe,
   logo,
   backend,
   gyatword,

@@ -1,5 +1,6 @@
 import {
   mobile,
+  synapxe,
   backend,
   creator,
   ace,
@@ -164,6 +165,17 @@ const experiences = [
     points: [
       "Teaching support for CP2106 - Independent Software Development Project (Orbital).",
       "Peer evaluator, project manager and cheerleader for 12~15 Orbital teams. Evaluate the progress of a few Orbital teams every month and guide teams through their software development project.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Synapxe",
+    icon: synapxe,
+    iconBg: "#ffff",
+    date: "Jun 2025 - Dec 2025",
+    points: [
+      "Fullstack development of advanced healthcare system integrated with computer vision and generative AI, hosted on AWS cloud services.",
+      "Implement multi-modal capabilities to enhance user experiences within the healthcare solution.",
     ],
   },
 ];
